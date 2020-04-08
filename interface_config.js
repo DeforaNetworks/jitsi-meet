@@ -46,7 +46,7 @@ var interfaceConfig = {
 
     DEFAULT_BACKGROUND: '#474747',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
-    DEFAULT_LOGO_URL: 'images/watermark.png',
+    DEFAULT_LOGO_URL: 'images/watermark-dnet.png',
     DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Jitster',
 
     DISABLE_DOMINANT_SPEAKER_INDICATOR: false,
@@ -107,7 +107,7 @@ var interfaceConfig = {
     HIDE_INVITE_MORE_HEADER: false,
 
     INITIAL_TOOLBAR_TIMEOUT: 20000,
-    JITSI_WATERMARK_LINK: 'https://jitsi.org',
+    JITSI_WATERMARK_LINK: 'https://www.defora.net/',
 
     LANG_DETECTION: true, // Allow i18n to detect the system language
     LIVE_STREAMING_HELP_LINK: 'https://jitsi.org/live', // Documentation reference for the live streaming feature.
