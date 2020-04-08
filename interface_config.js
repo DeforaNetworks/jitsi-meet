@@ -136,7 +136,7 @@ var interfaceConfig = {
     // has a suboptimal experience. Browsers which are not listed as optimal or
     // unsupported are considered suboptimal. Valid values are:
     // chrome, chromium, edge, electron, firefox, nwjs, opera, safari
-    OPTIMAL_BROWSERS: [ 'chrome', 'chromium', 'firefox', 'nwjs', 'electron', 'safari' ],
+    OPTIMAL_BROWSERS: [ 'chrome', 'chromium', 'nwjs', 'electron' ],
 
     POLICY_LOGO: null,
     PROVIDER_NAME: 'Jitsi',
@@ -196,7 +196,7 @@ var interfaceConfig = {
 
     // Browsers, in addition to those which do not fully support WebRTC, that
     // are not supported and should show the unsupported browser page.
-    UNSUPPORTED_BROWSERS: [],
+    UNSUPPORTED_BROWSERS: [ 'firefox' ],
 
     /**
      * Whether to show thumbnails in filmstrip as a column instead of as a row.

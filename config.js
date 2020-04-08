@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars, no-var */
+/* modified for use at Defora Networks GmbH */
 
 var config = {
     // Connection
@@ -6,7 +7,7 @@ var config = {
 
     hosts: {
         // XMPP domain.
-        domain: 'jitsi-meet.example.com',
+        domain: 'meet.defora.net',
 
         // When using authentication, domain for guest users.
         // anonymousdomain: 'guest.example.com',
@@ -23,12 +24,14 @@ var config = {
         // Focus component domain. Defaults to focus.<domain>.
         // focus: 'focus.jitsi-meet.example.com',
 
+        bridge: 'videobridge.meet.defora.net',
+
         // XMPP MUC domain. FIXME: use XEP-0030 to discover it.
-        muc: 'conference.jitsi-meet.example.com'
+        muc: 'conference.meet.defora.net'
     },
 
     // BOSH URL. FIXME: use XEP-0156 to discover it.
-    bosh: '//jitsi-meet.example.com/http-bind',
+    bosh: '//meet.defora.net/http-bind',
 
     // Websocket URL
     // websocket: 'wss://jitsi-meet.example.com/xmpp-websocket',
@@ -274,6 +277,7 @@ var config = {
 
     // Require users to always specify a display name.
     // requireDisplayName: true,
+    requireDisplayName: false,
 
     // Whether to use a welcome page or not. In case it's false a random room
     // will be joined when no room is specified.
@@ -306,7 +310,7 @@ var config = {
 
     // Message to show the users. Example: 'The service will be down for
     // maintenance at 01:00 AM GMT,
-    // noticeMessage: '',
+    noticeMessage: 'Service courtesy of Defora Networks GmbH',
 
     // Enables calendar integration, depends on googleApiApplicationClientID
     // and microsoftApiApplicationClientID
